@@ -1,10 +1,3 @@
-# Installing Chocolatey on your Windows 10
-
-echo "Chocolatey setup has been started."
-Set-ExecutionPolicy AllSigned -Confirm -Force
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-echo "Chocolatey setup has been finished."
-
 echo "DevOps tools setup has been started."
 # Every program should be on a separate line, so you can easily enable/disable them with '#'
 
