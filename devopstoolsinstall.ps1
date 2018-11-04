@@ -5,6 +5,7 @@ choco install `
 7zip `
 awscli `
 # azure-cli `
+dbeaver `
 draft `
 dropbox `
 f.lux `
@@ -18,7 +19,8 @@ kubernetes-cli `
 kubernetes-helm `
 lightscreen `
 Mahou `
-mysql.workbench `
+minikube `
+# mysql.workbench `
 notepadplusplus `
 openvpn `
 postman `
