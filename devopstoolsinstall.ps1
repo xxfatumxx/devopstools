@@ -4,6 +4,7 @@ echo "DevOps tools setup has been started."
 choco install `
 7zip `
 awscli `
+# azure-cli `
 draft `
 dropbox `
 f.lux `
