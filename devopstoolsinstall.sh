@@ -15,34 +15,19 @@ sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 
 ## 3. Install apps & tools
 apt install \
-# p7zip-full \
-# dbeaver \
-# dropbox ?
-# f.lux \
 firefox \
-# gcloudsdk \
 git \
 google-chrome-stable \
 openjdk-8-jre \
 keepass2 \
-# kubectl \ 
-# helm \
 gnome-screenshot \
 remmina \
 gxneur \
-# minikube \
-# notepadplusplus \
-# openvpn \
-# postman \
 guake \
 transmission \
-# skype \
-# slack \
-# teamviewer \
 vagrant \
 virtualbox \
 vlc \
-# vscode \
 mtr \
 mc \
 -y
@@ -57,7 +42,7 @@ notepad-plus-plus
 postman
 "
 
-for SNAP in ${SNAPS} do
+for SNAP in ${SNAPS}; do
 snap install $SNAP
 done
 
@@ -70,7 +55,7 @@ slack
 code
 "
 
-for SNAP in ${SNAPS-CLASSIC} do
+for SNAP in ${SNAPS-CLASSIC}; do
 snap install $SNAP --classic
 done
 
@@ -79,7 +64,7 @@ dbeaver-ce
 fluxgui
 "
 
-for SNAP in ${SNAPS-EDGE} do
+for SNAP in ${SNAPS-EDGE}; do
 snap install $SNAP --edge
 done
 
