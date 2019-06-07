@@ -21,6 +21,7 @@ google-chrome-stable \
 openjdk-8-jre \
 keepass2 \
 gnome-screenshot \
+gdebi-core \
 remmina \
 gxneur \
 guake \
@@ -71,6 +72,7 @@ done
 ## 5. Manual installation
 
 # Team Viewer
-deb -i https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+gdebi teamviewer*.deb
 
 ### End ###
