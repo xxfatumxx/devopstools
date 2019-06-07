@@ -101,6 +101,6 @@ gdebi -n teamviewer*.deb
 
 # Changing favourite apps
 
-dconf write /org/gnome/shell/favorite-apps ['brave_brave.desktop', 'google-chrome.desktop', 'firefox.desktop', 'thunderbird.desktop', 'org.gnome.Terminal.desktop', 'guake.desktop', 'code_code.desktop', 'notepad-plus-plus_notepad-plus-plus.desktop', 'org.remmina.Remmina.desktop', 'postman_postman.desktop']
+# dconf write /org/gnome/shell/favorite-apps ['brave_brave.desktop', 'google-chrome.desktop', 'firefox.desktop', 'thunderbird.desktop', 'org.gnome.Terminal.desktop', 'guake.desktop', 'code_code.desktop', 'notepad-plus-plus_notepad-plus-plus.desktop', 'org.remmina.Remmina.desktop', 'postman_postman.desktop']
 
 ### End ###
