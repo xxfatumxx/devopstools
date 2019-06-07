@@ -14,6 +14,13 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
 sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 
 # Docker CE
+apt-get install \
+apt-transport-https \
+ca-certificates \
+curl \
+gnupg-agent \
+software-properties-common
+
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
 apt-key fingerprint 0EBFCD88
 add-apt-repository \
