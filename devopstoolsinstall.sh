@@ -50,7 +50,7 @@ for SNAP in ${SNAPS}; do
 snap install $SNAP
 done
 
-SNAPS-CLASSIC="
+SNAPSCLASSIC="
 kubectl
 helm
 google-cloud-sdk
@@ -59,16 +59,16 @@ slack
 code
 "
 
-for SNAP in ${SNAPS-CLASSIC}; do
+for SNAP in ${SNAPSCLASSIC}; do
 snap install $SNAP --classic
 done
 
-SNAPS-EDGE="
+SNAPSEDGE="
 dbeaver-ce
 fluxgui
 "
 
-for SNAP in ${SNAPS-EDGE}; do
+for SNAP in ${SNAPSEDGE}; do
 snap install $SNAP --edge
 done
 
@@ -76,6 +76,6 @@ done
 
 # Team Viewer
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-gdebi teamviewer*.deb
+gdebi -n teamviewer*.deb
 
 ### End ###
