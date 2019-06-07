@@ -64,6 +64,7 @@ done
 SNAPSCLASSIC="
 kubectl
 helm
+aws-cli
 google-cloud-sdk
 skype
 slack
